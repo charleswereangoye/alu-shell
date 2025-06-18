@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script is displaying "Best School" 10 times using until loop
 counter=10
 until [  $counter -lt 1 ]; do # if counter is not lower than 1, this loop will keep excuting its commands
     echo "Best School"

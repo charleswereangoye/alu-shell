@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script is displaying "Best School" 10 times using while loop and if function
 counter=0
 while [ $counter -lt 10 ]; do # while counter is still lower than 10, excute these commands
     if [ $counter -eq 8 ] # this will matter if counter is equal to 8. if Cond become true, then it will add a new line with text "Hi"
