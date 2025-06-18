@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# here we're going to use while loop to dispay "Best school 10 times"
 counter=0
 while [ $counter -lt 10 ]; do
       echo "Best School"
